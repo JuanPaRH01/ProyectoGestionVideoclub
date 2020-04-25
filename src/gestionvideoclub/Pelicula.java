@@ -2,21 +2,21 @@ package gestionvideoclub;
 
 public class Pelicula {
     
-    private String codPelicula;
+    private int codPelicula;
     private String titulo;
     private String director;
 
-    public Pelicula(String codPelicula, String titulo, String director) {
+    public Pelicula(int codPelicula, String titulo, String director) {
         this.codPelicula = codPelicula;
         this.titulo = titulo;
         this.director = director;
     }
 
-    public String getCodPelicula() {
+    public int getCodPelicula() {
         return codPelicula;
     }
 
-    public void setCodPelicula(String codPelicula) {
+    public void setCodPelicula(int codPelicula) {
         this.codPelicula = codPelicula;
     }
 

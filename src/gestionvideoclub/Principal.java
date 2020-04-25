@@ -18,7 +18,7 @@ public class Principal {
         peliculas.add(new Pelicula(765, "La naranja mecánica","Stanley Kubrick"));
         peliculas.add(new Pelicula(987, "El señor de los anillos","Peter Jackson"));
         peliculas.add(new Pelicula(890, "Forrest Gump","Robert Zemeckis"));
-        peliculas.add(new Pelicula(098, "Amelie","Jean-Pierre Jeunet"));
+        peliculas.add(new Pelicula(98, "Amelie","Jean-Pierre Jeunet"));
         
     }
     
