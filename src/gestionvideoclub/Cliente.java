@@ -56,6 +56,13 @@ public class Cliente {
             return true;
         }
     }
+    
+    public void mostrarPelis(){
+        for (int i = 0; i < pelisAlquiladas.size(); i++) {
+            Pelicula pe = pelisAlquiladas.get(i);
+            System.out.println(pe.getTitulo());
+        }
+    }
 
     @Override
     public String toString() {
